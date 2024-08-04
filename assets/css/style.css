@@ -67,8 +67,7 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 48px;
-    padding-bottom: 0px;
+    font-size: 52px;
     text-shadow: 0 0 10px var(--text-color),
                  0 0 10px var(--text-glow),
                  0 0 30px var(--text-glow),
