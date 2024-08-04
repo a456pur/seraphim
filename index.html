@@ -243,8 +243,58 @@
             <option value="subzero">subzero</option>
             <option value="metro">metro</option>
             <option value="ghostly">ghostly</option>
+            <option value="custom">custom</option>
         </select>
         <button id="apply-theme">apply</button>
+        <div id="custom-theme-center">
+        <div id="custom-theme-settings" style="display: none;">
+            <h2 style="text-decoration: underline;">theme customisation</h2>
+            <div class="theme-property">
+                <label for="background-image">background image url:</label>
+                <input type="text" id="background-image" value="https://raw.githubusercontent.com/a456pur/seraph/main/images/backgrounds/seraph/homebg.png">
+            </div>
+    
+            <div class="theme-property">
+                <label for="font-family">font family:</label>
+                <input type="text" id="font-family" value="Ubuntu">
+            </div>
+    
+            <div class="theme-property">
+                <label for="text-color">text colour:</label>
+                <input type="color" id="text-color" value="#000000">
+            </div>
+    
+            <div class="theme-property">
+                <label for="background-color">background colour:</label>
+                <input type="color" id="background-color">
+            </div>
+    
+            <div class="theme-property">
+                <label for="border-color1">border colour:</label>
+                <input type="color" id="border-color1">
+            </div>
+    
+            <div class="theme-property">
+                <label for="border-color2">secondary border colour:</label>
+                <input type="color" id="border-color2">
+            </div>
+    
+            <div class="theme-property">
+                <label for="hover-color">hover colour:</label>
+                <input type="color" id="hover-color">
+            </div>
+    
+            <div class="theme-property">
+                <label for="text-glow">text glow colour:</label>
+                <input type="color" id="text-glow">
+            </div>
+    
+            <button id="apply-custom-theme" style="font-size: 18px;">apply settings</button>
+            <br>
+            <button id="import-theme" style="font-size: 18px; width: 120px;">import</button>
+            <button id="export-theme" style="font-size: 18px; width: 120px;">export</button>
+        </div>
+        </div>
 
         <h3>cloak</h3>
         <select id="presetSelect">
