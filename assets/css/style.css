@@ -92,8 +92,8 @@ h1 {
     width: calc(50% - 10px); 
     max-width: 480px;
 
-    width: 400px;
-    max-height: 100px;
+    width: 100px;
+    height: 100px;
     box-sizing: border-box;
 
     padding-left: 10px;
@@ -104,9 +104,12 @@ h1 {
 
     border: 3.2px solid var(--border-color2);
     border-radius: 16px;
-
     
     position: relative;
+
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
 }
 
 .button:hover {
@@ -118,6 +121,27 @@ h1 {
     font-size: 30px;
     text-align: center;
 
+}
+
+button {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    width: 50%;
+    max-width: 200px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: var(--font-family);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 2px;
+    
+    transition: background-color 0.15s ease-in-out;
+
+    border: 2px solid var(--border-color2);
+    border-radius: 32px;
+    animation: searchTween 0.5s ease-in-out forwards;
 }
 
 select {
@@ -159,10 +183,9 @@ input::placeholder {
     color: var(--text-color);
 }
 
-.button-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+#button-container {
+    width: 100%;
+    max-width: 600px;
 }
 
 @keyframes fadein {
