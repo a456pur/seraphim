@@ -141,7 +141,7 @@ select {
     color: var(--text-color);
     
     width: 200px;
-    max-width: 200px;
+    max-width: 400px;
     padding-top: 5px;
     font-size: 20px;
     padding-bottom: 5px;
