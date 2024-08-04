@@ -214,18 +214,5 @@
 
       <script src="assets/js/seraphim.js"></script>
       <script src="assets/js/cloak.js"></script>
-
-      <script>
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/app.js')
-                .then(registration => {
-                    console.log('registered worker');
-                })
-                .catch(error => {
-                    console.log('failed to register', error);
-            });
-        }
-
-      </script>
   </body>
 </html>
