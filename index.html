@@ -20,6 +20,13 @@
         <meta property="og:title" content="seraph">
         <meta property="og:type" content="website">
         <meta property="og:description" content="seraph; an open source unblocked apps website hosting 250+ apps with downloadable support, a clean and centralised user interface and no iframe embedding">
+
+        <link rel="manifest" href="/manifest.json">
+
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <link rel="apple-touch-icon" href="images/icons/seraphim-192.png">
+
   </head>
   <body>
     
@@ -207,5 +214,18 @@
 
       <script src="assets/js/seraphim.js"></script>
       <script src="assets/js/cloak.js"></script>
+
+      <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/service-worker.js')
+                .then(registration => {
+                    console.log('registered worker');
+                })
+                .catch(error => {
+                    console.log('failed to register', error);
+            });
+        }
+
+      </script>
   </body>
 </html>
