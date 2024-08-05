@@ -66,6 +66,10 @@ h1, h2 {
     font-family: var(--font-family);
 }
 
+h2 {
+    text-decoration: underline;
+}
+
 h1 {
     font-size: 52px;
     text-shadow: 0 0 10px var(--text-color),

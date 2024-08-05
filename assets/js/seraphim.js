@@ -222,7 +222,7 @@ function updateTime() {
     const timeString = `${hours}:${minutes}:${seconds}`;
     const dateString = `${day}/${month}`;
     
-    timeBar.textContent = `${dateString} ${timeString}`;
+    timeBar.textContent = `${dateString} • ${timeString}`;
 }
 
 setInterval(updateTime, 1000);
