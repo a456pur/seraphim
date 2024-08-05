@@ -126,7 +126,7 @@ button {
     background-color: var(--background-color);
     color: var(--text-color);
     width: 50%;
-    max-width: 200px;
+    max-width: 120px;
     padding-top: 2px;
     padding-bottom: 2px;
     font-family: var(--font-family);
@@ -241,7 +241,7 @@ p {
     background-color: var(--background-color);
     border: 3px solid var(--border-color2);
     border-radius: 32px;
-    width: 50%;
+    width: 90%;
     max-width: 400px;
 
     display: flex;
