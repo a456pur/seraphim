@@ -74,11 +74,7 @@ h1 {
     font-size: 52px;
     text-shadow: 0 0 10px var(--text-color),
                  0 0 10px var(--text-glow),
-                 0 0 30px var(--text-glow),
-                 0 0 40px var(--text-color),
                  0 0 50px var(--text-glow),
-                 0 0 60px var(--text-color),
-                 0 0 70px var(--text-glow),
                  0 0 80px #000000;
 }
 
